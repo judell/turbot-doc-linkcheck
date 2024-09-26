@@ -1,6 +1,6 @@
-npm install crawlee
-npm install puppeteer
+`npm install crawlee`
+`npm install puppeteer`
 
-# configure vars
+(configure vars)
 
-node crawler.js
+`node crawler.js`
