@@ -4,14 +4,14 @@
     "type": "module",
     "description": "Check Turbot doc links.",
     "dependencies": {
-        "crawlee": "^3.0.0",
-        "puppeteer": "*"
+        "crawlee": "^3.11.4",
+        "puppeteer": "^23.4.1"
     },
     "devDependencies": {
         "@apify/tsconfig": "^0.1.0",
+        "@types/node": "^20.0.0",
         "tsx": "^4.4.0",
-        "typescript": "~5.6.0",
-        "@types/node": "^20.0.0"
+        "typescript": "~5.6.0"
     },
     "scripts": {
         "start": "npm run start:dev",
