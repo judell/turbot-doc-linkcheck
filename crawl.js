@@ -1,10 +1,12 @@
 import { PuppeteerCrawler, RequestQueue, log } from 'crawlee';
 import { URL } from 'url';
 
+/*
 // guardrails
 const BASE_URL = 'https://turbot.com/guardrails/docs';
 const TOC_SELECTOR = 'div.hidden a'
 const TOC_EXCLUDER = 'a[href]:not(div.hidden a)'
+*/
 
 /*
 // flowpipe
@@ -20,12 +22,10 @@ const TOC_SELECTOR = 'div.mt-2 a'
 const TOC_EXCLUDER = 'a[href]:not(div.mt-2 a)'
 */
 
-/*
 // powerpipe
-const BASE_URL = 'http://localhost:3000/docs';
+const BASE_URL = 'https://powerpipe.io/docs';
 const TOC_SELECTOR = 'div.mt-2 a'
 const TOC_EXCLUDER = 'a[href]:not(div.mt-2 a)'
-*/
 
 log.setLevel(log.LEVELS.INFO)
 
