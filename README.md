@@ -1,6 +1,10 @@
-`npm install crawlee`
-`npm install puppeteer`
+```
+npm install crawlee
+npm install puppeteer
+```
 
 (configure vars)
 
-`node crawler.js`
+```
+node crawl.js
+```
