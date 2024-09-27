@@ -62,13 +62,7 @@ const isInternalUrl = (url) => {
   return url.toLowerCase().startsWith(BASE_URL.toLowerCase());
 };
 
-// Function to compare URLs case-insensitively
-const areUrlsEqual = (url1, url2) => {
-  return url1.toLowerCase() === url2.toLowerCase();
-};
-
 let counter = 1;
-let tocLinksSize = 0;
 
 const crawler = new PuppeteerCrawler({
   async requestHandler({ page, request }) {
