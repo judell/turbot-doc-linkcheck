@@ -33,7 +33,6 @@ log.setLevel(log.LEVELS.INFO)
 const requestQueue = await RequestQueue.open();
 
 const notFoundUrls = [];
-const caseInsensitiveMatches = [];
 
 // Create Sets to keep track of processed and enqueued URLs, and toc links
 const processedUrls = new Set();
